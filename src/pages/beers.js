@@ -1,11 +1,7 @@
 import React from "react";
 
 const Beers = () => {
-  return (
-    <div>
-      Hey - Beers
-    </div>
-  );
+  return <p>Hey - Beers</p>;
 };
 
 export default Beers;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <footer>
       <p>&copy; Slick's Slices {new Date().getFullYear()}</p>

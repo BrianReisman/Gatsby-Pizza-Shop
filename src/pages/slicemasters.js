@@ -1,11 +1,10 @@
 import React from "react";
-import Nav from "../components/Nav";
 
 const SlicemastersPage = () => {
   return (
-    <div>
-      Slice Masters -
-    </div>
+    <>
+      <p>Slice Masters -</p>
+    </>
   );
 };
 
