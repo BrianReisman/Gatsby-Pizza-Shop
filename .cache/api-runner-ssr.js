@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('/Users/breisman/Documents/learningCode/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/breisman/Documents/learningCode/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"uaksfikc","dataset":"production","watchMode":true,"token":"sk8cHRFgaFDJpeiScQP6iRSOJHlJBw5m9sj772fCjDLSypK4Fmmv4f4uZ8bG71ecFBqxDDgRwM58hlLmiyp7OssUEAwYz0rrN0EiXpfFev2dc8pCo1vRFi78YCLdhIPF4e8WkdRxtcWuGGLpW6PH0YYljpHDLOJJBZeAXblJqMSsKznZEiae"},
+    },{
       plugin: require('/Users/breisman/Documents/learningCode/gatsby/gatsby-ssr'),
       options: {"plugins":[]},
     }]
