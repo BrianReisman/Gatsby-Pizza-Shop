@@ -2,10 +2,12 @@ import { graphql } from "gatsby";
 import React from "react";
 import Layout from "../components/Layout";
 import PizzaList from "../components/PizzaList";
+import ToppingsFilter from "../components/ToppingsFilter.js";
 
 const Pizza = ({ data }) => {
   return (
     <>
+      <ToppingsFilter />
       <PizzaList pizzas={data.pizzas.nodes} />
     </>
   );
@@ -28,7 +30,7 @@ export const query = graphql`
         }
         image {
           asset {
-            fixed(width: 200, height: 200){
+            fixed(width: 200, height: 200) {
               ...GatsbySanityImageFixed
             }
             fluid(maxWidth: 400) {
