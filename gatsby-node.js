@@ -22,6 +22,10 @@ async function turnPizzasIntoPages({ graphql, actions }) {
       // what is the url of this new page?
       path: `pizza/${pizza.slug.current}`,
       component: pizzaTemplate,
+      context: {
+        brian: 'is aight',
+        slug: pizza.slug.current,
+      }
     });
   });
 }

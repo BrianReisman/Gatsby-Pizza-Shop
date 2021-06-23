@@ -21,7 +21,6 @@ const ToppingsFilter = ({}) => {
       }
     }
   `);
-  console.log(toppings);
 
   return (
     <div>
