@@ -4,11 +4,11 @@ import Layout from "../components/Layout";
 import PizzaList from "../components/PizzaList";
 import ToppingsFilter from "../components/ToppingsFilter.js";
 
-const Pizza = ({ data }) => {
+const Pizza = ({ data, pageContext }) => {
   console.log(data);
   return (
     <>
-      <ToppingsFilter />
+      <ToppingsFilter activeTopping={pageContext.topping} />
       <PizzaList pizzas={data.pizzas.nodes} />
     </>
   );

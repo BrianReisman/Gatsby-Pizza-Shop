@@ -59,7 +59,7 @@ const Nav = () => {
           <Link to="/">Hot Now</Link>
         </li>
         <li>
-          <Link to="/pizza">Pizzas (pizza or pizzas?) Menu</Link>
+          <Link to="/pizzas">Pizzas (pizza or pizzas?) Menu</Link>
         </li>
         <li>
           <Link to="/">
